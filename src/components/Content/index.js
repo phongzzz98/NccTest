@@ -1,15 +1,17 @@
 import React from "react";
-import Banner from "./banner/Banner";
 import Header from "./Header/Header";
-import Main from ".";
+import Banner from "./Banner/Banner";
+import Main from "./Main/Main";
 import "./style.css";
+import Footer from "./Footer/Footer";
 
 const Content = () => {
   return (
     <div className="content">
-      <Header />
+      <Header/>
       <Banner />
       <Main />
+      <Footer/>
     </div>
   );
 };

@@ -1,0 +1,19 @@
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.box:nth-child(2){
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box .box_title {
+    font-size: 24px;
+    list-style: 28.13px;
+    font-weight: 700;
+}
+
+.box-content_img{
+    float: left;
+    padding: 6px;
+}

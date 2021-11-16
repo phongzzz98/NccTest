@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo_Ncc from '../../../image/logoNCC.png'
+import Logo_Ncc from '../../../assets/logoNCC.png'
 import './style.css'
 function Header() {
     return (
